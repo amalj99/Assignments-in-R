@@ -214,7 +214,8 @@ plot(health.totals$EVTYPE,
      main = "Most Harmful Event Type in the United States")
 ```
 
-![](Storm_Analysis_files/figure-html/Population Health Total-1.png)<!-- -->
+#![](Storm_Analysis_files/figure-html/Population Health Total-1.png)<!-- -->
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Economic%20Total-1.png)
 #### Population Health Assessment
 __It is easily said that tornado's cause the largest weather-related risk to the overall population health.__
 
