@@ -214,8 +214,8 @@ plot(health.totals$EVTYPE,
      main = "Most Harmful Event Type in the United States")
 ```
 
-#![](Storm_Analysis_files/figure-html/Population Health Total-1.png)<!-- -->
-![](https://github.com/amalj99/Assignments-in-R/blob/master/Economic%20Total-1.png)
+#![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Population%20Health%20Total-1.png)<!-- -->
+
 #### Population Health Assessment
 __It is easily said that tornado's cause the largest weather-related risk to the overall population health.__
 
@@ -236,7 +236,7 @@ plot(economic.prop$EVTYPE,
      main = "Economic Impact of Weather on Propery Damage")
 ```
 
-![](Storm_Analysis_files/figure-html/Economic Total-1.png)<!-- -->
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Economic%20Total-1.png)
 
 ```r
 plot(economic.crop$EVTYPE,
@@ -246,7 +246,7 @@ plot(economic.crop$EVTYPE,
      main = "Economic Impact of Weather on Crop Damage")
 ```
 
-![](Storm_Analysis_files/figure-html/Economic Total-2.png)<!-- -->
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Economic%20Total-2.png)
 
 #### Economic Impact Assessment
 While drought has the largest impact on crops, it is easy to see that flooding produces the largest overall weather-related impact to the economy.
