@@ -57,7 +57,7 @@
     total<-tapply(act$steps,dates,sum)
     hist(total, xlab = "Total daily Steps",main="Histogram of Total Steps by day",breaks=20)
 
-![](stepdata_report_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Histogram%20of%20total%20number%20of%20steps%20walked.png)
 
 1.  Mean and median number of steps taken each day
 
@@ -83,7 +83,7 @@
     act.interval<-summarize(act.interval,steps=mean(steps))
     ggplot(act.interval, aes(interval, steps)) + geom_line()
 
-![](stepdata_report_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Time%20series%20plot%20of%20the%20average%20number%20of%20steps%20taken.png)
 
 1.  The 5-minute interval that, on average, contains the maximum number
     of steps
@@ -122,7 +122,7 @@
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](stepdata_report_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Histogram%20of%20the%20total%20number%20of%20steps%20taken%20each%20day%20after%20missing%20values%20are%20imputed%20-%20Copy.png)
 
 1.  Panel plot comparing the average number of steps taken per 5-minute
     interval across weekdays and weekends
@@ -146,4 +146,4 @@
     act.int$weekend <- as.factor(act.int$weekend)
     ggplot(act.int, aes(interval, steps)) + geom_line() + facet_grid(weekend ~ .)
 
-![](stepdata_report_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![](https://github.com/amalj99/Assignments-in-R/blob/master/Images/Panel%20plot%20comparing%20the%20average%20number%20of%20steps%20taken%20per%205-minute%20interval%20across%20weekdays%20and%20weekends%20-%20Copy.png)
