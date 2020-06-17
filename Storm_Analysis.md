@@ -196,9 +196,7 @@ property$PROPDMG <- property$PROPDMG * property$PROPDMGMLT
 property$CROPDMG <- property$CROPDMG * property$CROPDMGMLT
 property$total <- property$PROPDMG + property$CROPDMG
 ```
-
-# Results
-Now that everything is clean we will begin to analyze the data to answer our two goals for looking at this dataset
+### Now that everything is clean we will begin to analyze the data to answer our two goals for looking at this dataset
 
 ## Population Health Question
 
