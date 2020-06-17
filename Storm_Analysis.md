@@ -248,4 +248,4 @@ plot(economic.crop$EVTYPE,
 ![](Storm_Analysis_files/figure-html/Economic Total-2.png)<!-- -->
 
 #### Economic Impact Assessment
-__While drought has the largest impact on crops, it is easy to see that flooding produces the largest overall weather-related impact to the economy. __
+While drought has the largest impact on crops, it is easy to see that flooding produces the largest overall weather-related impact to the economy.
