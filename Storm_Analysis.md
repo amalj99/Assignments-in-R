@@ -100,7 +100,7 @@ event_types <- as.data.frame(table(StormData$EVTYPE))
 event_types <- event_types[order(event_types$Var1), ]
 ```
 
-###Clean up a majority of Identified Names
+### Clean up a majority of Identified Names
 In order to properly count and categorize records that have possible multiple events, records that possess an ampersand, slash, or 'and' will be labeled as a multiple event.
 
 The naming of the event is to be done on the general overriding idea behind the event. For example, wind 65+ will be categorized the same as wind 45+ because both specific events deal with the event type of wind. This is done over several different instances.
@@ -133,7 +133,7 @@ health <- StormData[,(c(8,23:24))]
 property<-StormData[,c(8,25:28)]
 ```
 
-##Property Data Processing
+## Property Data Processing
 
 ### Magnitude Values
 These columns identify the magnitude that the damage should be multiplied against to accurately assess damage amount. 
